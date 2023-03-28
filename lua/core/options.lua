@@ -18,6 +18,8 @@ vim.opt.tabstop = 2
 vim.opt.shiftwidth = 2
 vim.opt.shiftround = true -- round indent to sw compatible
 vim.opt.expandtab = true
+vim.opt.foldmethod = "expr"
+vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
 
 -- Decrease update time
@@ -34,7 +36,7 @@ vim.opt.number = true
 vim.opt.relativenumber = false
 -- vim.opt.signcolumn = 'yes:2'
 vim.opt.signcolumn = 'yes'
-vim.opt.cursorline = false
+vim.opt.cursorline = true
 vim.opt.colorcolumn = '80,120'
 
 -- Better editing experience

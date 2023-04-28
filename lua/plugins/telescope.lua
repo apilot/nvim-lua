@@ -5,13 +5,14 @@ return {
     'nvim-lua/plenary.nvim',
     'nvim-treesitter',
     'rinx/nvim-ripgrep',
+    'kdheepak/lazygit.nvim',
     'nvim-telescope/telescope-symbols.nvim', -- emoji source for telescope
     { 'kyazdani42/nvim-web-devicons', opt = true },
     { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
   },
   config = function()
     -- make telescope layout appropiate to window aspect ratio
-    require("telescope").setup{
+    require("telescope").setup {
       defaults = {
         layout_strategy = "flex",
         layout_config = {
@@ -21,6 +22,7 @@ return {
         },
       },
     }
+    require("telescope").load_extension("lazygit")
     -- Enable telescope fzf native, if installed
     pcall(require('telescope').load_extension, 'fzf')
   end,

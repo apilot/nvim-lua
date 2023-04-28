@@ -15,4 +15,5 @@ return {
   -- Automatically creates missing LSP diagnostics highlight groups for color 
   -- schemes that don't yet support the Neovim 0.5 builtin lsp client.
   'folke/lsp-colors.nvim',
+  'ap/vim-css-color',
 }

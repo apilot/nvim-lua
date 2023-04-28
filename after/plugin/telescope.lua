@@ -53,7 +53,7 @@ vks('n', '<leader>r', builtin.grep_string,            'References')
 vks('n', '<leader>p', project_files,                  'Paths' )
 -- project_files unifies git_files and find_files
 -- vks('n', '<leader>sf', builtin.git_files,              'Git files')
--- vks('n', '<leader>sp', builtin.find_files,             'Paths' )
+vks('n', '<leader>sp', builtin.find_files,             'Find files' )
 
 -- search submenu
 vks('n', '<leader>sc', builtin.commands,               'Commands')

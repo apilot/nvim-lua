@@ -11,6 +11,10 @@ vim.keymap.set('n', '<leader>i', '<ESC>:e $MYVIMRC<cr>', { desc = 'Go to [I]nit.
 
 vim.keymap.set('n', '<leader>e', ':NvimTreeToggle<CR>', { desc = 'Go to [E]xplorer'})
 vim.keymap.set('n', '<leader>ct', ':sp<cr>:term<cr>:resize 20N<cr>i', { desc = '[c]onsole [t]terminal'})
+vim.keymap.set('n', '<leader>ll', ':LazyGit<CR>', { desc = 'LazyGit'})
+vim.keymap.set('n', '<leader>lc', ':LazyGitCurrentFile<CR>', { desc = 'LazyGitCurrentFile'})
+vim.keymap.set('n', '<leader>lff', ':LazyGitFilter<CR>', { desc = 'LazyGitFilter'})
+vim.keymap.set('n', '<leader>lfc', ':LazyGitFilterCurrentFile<CR>', { desc = 'LazyGitFilterCurrentFile'})
 
 -- Indent whole file and jump back to last edit position
 vim.keymap.set("n", "<leader>=", "ggVG=`.", { desc = '[=] Reindent file' })

@@ -1,4 +1,4 @@
--- Git
+-- Git 
 
 return {
 
@@ -12,7 +12,7 @@ return {
         change       = { text = '~' },
         delete       = { text = '_' },
         topdelete    = { text = '‾' },
-        changedelete = { text = '~' },
+        changedelete = { text = '~' }, 
         untracked    = { text = '┆' },
       },
       numhl = true,
@@ -27,4 +27,5 @@ return {
     }
   },
   'mbbill/undotree',               -- visualize local undo tree
+  'kdheepak/lazygit.nvim'
 }

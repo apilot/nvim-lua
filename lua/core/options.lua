@@ -21,8 +21,7 @@ vim.opt.expandtab = true
 vim.opt.foldmethod = "expr"
 vim.opt.foldexpr = "nvim_treesitter#foldexpr()"
 
-
--- Decrease update time
+-- Decrease update timedfgdfg
 vim.opt.timeoutlen = 500
 -- vim.opt.updatetime = 200
 vim.opt.updatetime = 50 -- primeagen value
@@ -102,3 +101,4 @@ vim.api.nvim_set_hl(0, 'WinSeparator', { bg = 'None' })
 vim.g['netrw_banner'] = 0
 vim.g['netrw_liststyle'] = 3
 vim.g['netrw_winsize'] = 25
+

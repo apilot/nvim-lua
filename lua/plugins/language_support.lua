@@ -27,7 +27,7 @@ return {
   -- Language diagnostics:
   {
     "folke/trouble.nvim",
-    dependencies = "kyazdani42/nvim-web-devicons",
+    dependencies = "ryanoasis/vim-devicons",
     config = function()
       require("trouble").setup {
         -- your configuration comes here

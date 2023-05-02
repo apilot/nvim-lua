@@ -7,7 +7,7 @@ return {
     'rinx/nvim-ripgrep',
     'kdheepak/lazygit.nvim',
     'nvim-telescope/telescope-symbols.nvim', -- emoji source for telescope
-    { 'kyazdani42/nvim-web-devicons', opt = true },
+    { 'ryanoasis/vim-devicons'},
     { 'nvim-telescope/telescope-fzf-native.nvim', build = 'make' },
   },
   config = function()

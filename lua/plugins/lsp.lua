@@ -38,11 +38,9 @@ return {
   'folke/neodev.nvim', -- init.lua support
 
   'onsails/lspkind.nvim', -- add nerd icons to completion menu sources
-
+  'nvim-treesitter/nvim-treesitter',
   'WhoIsSethDaniel/toggle-lsp-diagnostics.nvim', -- LSP Diagnostics 
-  {'SmiteshP/nvim-gps',
-	  requires = "nvim-treesitter/nvim-treesitter"
-  },
+  {'SmiteshP/nvim-gps'},
   {
     'tree-sitter/tree-sitter-ruby'
   },

@@ -9,7 +9,6 @@ return {
   'preservim/tagbar',
   {
     'ryanoasis/vim-devicons'
-    config = function() require('vim-devicons').setup() end
   },
 
   -- Command line info
